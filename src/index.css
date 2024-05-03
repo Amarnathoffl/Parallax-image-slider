@@ -1,0 +1,248 @@
+#searchbox{
+    background-color: rgba(255, 255, 255, 0.384);
+    color: white;
+    padding-left: 40px;
+    border: 0px;
+}
+::placeholder {
+    color: white;
+}
+.sbt{
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 29px;
+    padding-right: 25px;
+    margin-left: -100px;
+    border: 0px;
+}
+
+/* sec */
+
+  .hiking-types {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+  }
+  
+  .type {
+    width: 280px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 1rem;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+    position: relative;
+    
+  }
+  .type::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .type h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20%;
+    text-align: center;
+  }
+  
+  .type p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 10%;
+    padding: 8px;
+    text-align: center;
+  }
+  /* #t1{
+    background-image: url("./images/hike.jpg");
+    background-size: cover;
+  }
+  #t2{
+    background-image: url("./images/watch1.jpg");
+    background-size: cover;
+  }
+  #t3{
+    background-image: url("./images/surf.jpg");
+    background-size: cover;
+  }
+  #t6{
+    background-image: url("./images/cycle.jpg");
+    background-size: cover;
+  } 
+   #t5{
+    background-image: url("./images/whale.jpg");
+    background-size: cover;
+  }  
+  #t4{
+    background-image: url("./images/kayaking.jpg");
+    background-size: cover;
+  } */
+
+
+
+
+  .type:hover .tchange{
+    filter: blur(5px);
+
+  }
+
+  .type:hover .cont{
+    animation: car 1.5s ease forwards;
+    font-size: 30px;
+    animation-delay: 0s;
+  }
+  
+  @keyframes car {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(340px);
+    }
+  }
+  
+  .type:not(:hover) .cont{
+    animation: carback 1.5s ease forwards;
+    animation-delay: 0s;
+  }
+  @keyframes carback {
+    0% {
+      transform: translateX(270px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+/* 4th */
+.fimg{
+    margin-top: 154px;
+    filter: brightness('700px');
+}
+#fout{
+    background-color: rgb(29, 29, 63);
+    color: white;
+}
+
+
+
+/* 2222 */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  #footer{
+    width: 80%;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footin4{
+    width: 33.33%;
+  }
+  #fout{
+    width: 100%;
+  }
+  .footin4>p{
+    font-size: 14px;
+  }
+  #list{
+    list-style: none;
+  }
+  #list>li{
+    font-size: 14px;
+  
+  }
+  .footin4>h5{
+    margin-top: 15px;
+  }
+  #infohead{
+    margin-left: 31px;
+  }
+  .footin4>i{
+    padding:10px ;
+  }
+  .cont5{
+    width: 50%;
+    margin-left: 50px;
+  }
+  .fullbody5{
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .cont5{
+    margin-top: 150px;
+  }
+  .f2{
+    letter-spacing: 2px;
+  }
+  .f1{
+    letter-spacing: 5px;
+  }
+  .f3{
+    text-align: justify;
+  }
+  .circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  }
+  .fullbodyfaq{
+    width: 100%;
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .accord{
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+  }
+  .tbody{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 100px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+    
+  }
+
+  

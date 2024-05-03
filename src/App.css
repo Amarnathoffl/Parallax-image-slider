@@ -1,0 +1,96 @@
+.step-item {
+    margin-bottom: 2rem;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 5px 10px 10px 10px #dfdddd;
+    border-radius: 20px;
+  }
+  
+  .step-item h5 {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    color: #444;
+  }
+  
+  .step-item p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: #666;
+  }
+.secboxes{
+    margin-top: 130px;
+}
+.step-item img{
+    width: 70%;
+    height: 150px;
+}
+.secbtdiv{
+    width: 100%;
+}
+.secbt{
+    width: 300px;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.bt1:hover {
+    color: white;
+}
+.bt1{
+    margin-left: 20px;
+    
+}
+.buttondiv{
+    width: 100%;
+}
+.completebutton{
+    margin: auto;
+
+}
+.thmar{
+    margin-top: 30px;
+}
+/* .fullbody3{
+    background-color: #aea8a8;
+} */
+.cont{
+    margin-left: -450px;
+    width:100%;
+    height:300px;
+    position:absolute;
+}
+body{
+    overflow-x: hidden;
+}
+.logoimg{
+    width: 20%;
+    height: 20%;
+}
+.navlink{
+    margin-left: 50px;
+}
+#work,#homelk,#start,#contact{
+    color: black;
+    font-weight: 600;
+}
+#homelk:hover{
+    color: blue;
+}
+#work:hover{
+    color: blue;
+}
+#start:hover{
+    color: blue;
+}
+#contact:hover{
+    color: blue;
+}
+.i1{
+    width: 40px;
+    margin-top: 20px;
+}
+.chead{
+    margin-left: 30px;
+}
